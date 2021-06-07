@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(187, 176, 162, 0.753);
+}
+
+.box {
+    background-color: rgba(63, 124, 126, 0.5);
+    padding: 1rem;
+    margin: 2rem;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: black solid .01rem;
+    
+}
+.heading{
+    font-size: 3rem;
+    margin: 2rem;
+    font-family: cursive;
+    font-weight: 50;
+    color: rgb(100, 39, 39);
+    font-style: oblique;
+    background-color: rgba(0, 0, 0, 0.171);
+    border-radius: 2rem;
+    padding-bottom: 1rem;
+}
+
+#user_name , #password{
+    width: 20rem;
+}
