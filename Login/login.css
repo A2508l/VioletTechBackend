@@ -17,6 +17,7 @@ body{
     text-align: center;
     border: black solid .01rem;
     
+    
 }
 .heading{
     font-size: 3rem;
@@ -31,5 +32,26 @@ body{
 }
 
 #user_name , #password{
+    
     width: 20rem;
+    height: 2rem;
+    padding: .5rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: monospace;
+    background-color: rgba(82, 100, 92, 0.171);
+    color: #254ca5d9;
+    border: none;
+    border-bottom: azure solid 0.01rem;
+    border-radius: 2rem;
+}
+ ::placeholder{
+     color: black;
+     border: none;
+ }
+#button{
+   width: 10rem;
+   height: 2.5rem;
+   border: teal solid .02rem;
+   
 }
