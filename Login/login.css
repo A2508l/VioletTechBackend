@@ -53,5 +53,23 @@ body{
    width: 10rem;
    height: 2.5rem;
    border: teal solid .02rem;
+   border-radius: 2rem;
+   background-color:rgba(77, 69, 69, 0.466);
+   cursor: pointer;
+}
+#button:hover{
+    background-color: rgba(109, 96, 76, 0.575);
+    border: rgb(5, 5, 5) solid .04rem;
+    color: thistle;
+    
+}
+
+form a{
    
+    font-size: 1.2rem;
+    color: #f0f8ffa6;
+    background-color: rgb(94 115 109 / 47%);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: -webkit-pictograph;
 }
