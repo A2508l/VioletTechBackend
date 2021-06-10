@@ -35,10 +35,10 @@
               }
           }
           
-          echo "wrong username or password!";
+          
       }else
       {
-          echo "wrong username or password!";
+        echo "wrong username or password!";
       }
     }
 ?>
